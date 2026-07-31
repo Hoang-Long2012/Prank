@@ -137,3 +137,5 @@ Licensed under the [MIT License](LICENSE).
 No warranty.
 
 Especially emotional warranty.
+
+Read more about disclaimer  [here](DISCLAIMER md).
