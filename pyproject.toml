@@ -1,0 +1,56 @@
+[project]
+name = "prank"
+version = "0.1.0"
+description = "Turns every uncaught exception into emotional damage."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+
+authors = [
+	{ name = "Hoàng Long", email = "hoanglongcodes@gmail.com" }
+]
+
+keywords = [
+	"prank",
+	"troll",
+	"traceback",
+	"exception",
+	"excepthook",
+	"debug",
+	"humor",
+	"fun",
+	"sarcasm",
+]
+
+classifiers = [
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Developers",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3 :: Only",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3.12",
+	"Programming Language :: Python :: 3.13",
+	"Programming Language :: Python :: 3.14",
+	"Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/Hoang-Long2012/Prank"
+Repository = "https://github.com/Hoang-Long2012/Prank"
+Issues = "https://github.com/Hoang-Long2012/Prank/issues"
+Changelog = "https://github.com/Hoang-Long2012/Prank/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
