@@ -1,3 +1,5 @@
+"""Turns every uncaught exception into emotional damage."""
+
 import sys
 import random
 
