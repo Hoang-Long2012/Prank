@@ -1,7 +1,7 @@
 # Disclaimer
 The author is not responsible for:
 
-- Laugh non-stop.
+- Laughing non-stop.
 - Broken keyboards.
 - Coffee spilled while laughing.
 - Existential crises caused by debugging.
