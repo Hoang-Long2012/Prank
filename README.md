@@ -1,5 +1,7 @@
 # prank
 
+![PyPI Downloads](https://static.pepy.tech/personalized-badge/prank?period=total&units=ABBREVIATION&left_color=BLACK&right_color=GREEN&left_text=downloads)
+
 Turns every uncaught exception into emotional damage.
 
 > Tested on countless unfortunate exceptions.
