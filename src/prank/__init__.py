@@ -3,8 +3,8 @@
 import sys
 import random
 
-__version__ = "0.1.0"
-__all__ = ["install", "uninstall", "is_installed"]
+__version__ = "0.1.1"
+__all__ = ["install", "uninstall", "is_installed", "__version__"]
 
 random_messages = [
 	"Stack Overflow is waiting for you.",
