@@ -7,6 +7,7 @@ The author is not responsible for:
 - Emotional damage.
 
 This software is provided "AS IS", "AS AVAILABLE", and "AS FUNNY AS POSSIBLE".  
+The only thing we guarantee is that the jokes are intentional.  
 By using this package, you acknowledge that laughter is a possible side effect.  
 If this package makes debugging enjoyable, please consult your local Python expert immediately.
 
