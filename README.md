@@ -138,4 +138,4 @@ No warranty.
 
 Especially emotional warranty.
 
-Read more about disclaimer  [at here](DISCLAIMER.md).
+Read more in the disclaimer [here](DISCLAIMER.md).
