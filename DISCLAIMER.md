@@ -1,3 +1,4 @@
+# Disclaimer
 The author is not responsible for:
 
 - Broken keyboards.
