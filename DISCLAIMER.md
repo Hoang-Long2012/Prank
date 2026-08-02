@@ -2,10 +2,12 @@
 The author is not responsible for:
 
 - Broken keyboards.
-- Coffee spilled during laughter.
+- Coffee spilled while laughing.
 - Existential crises caused by debugging.
 - Emotional damage.
 
-By using this package, you acknowledge that laughter is a possible side effect.
+This software is provided "AS IS", "AS AVAILABLE", and "AS FUNNY AS POSSIBLE".  
+By using this package, you acknowledge that laughter is a possible side effect.  
+If this package makes debugging enjoyable, please consult your local Python expert immediately.
 
 Copyright (C) 2026 Hoàng Long
