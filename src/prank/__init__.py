@@ -5,8 +5,7 @@ import random
 
 __version__ = "0.1.1"
 __author__ = "Hoàng Long"
-__license__ = "MIT"
-__all__ = ["install", "uninstall", "is_installed", "__version__", "__author__", "__license__"]
+__all__ = ["install", "uninstall", "is_installed", "__version__", "__author__"]
 
 random_messages = [
 	"Stack Overflow is waiting for you.",
