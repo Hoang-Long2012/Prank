@@ -115,6 +115,7 @@ def my_hook(exc_type, exc_value, exc_tb):
 	print(msg, file=sys.stderr)
 
 def install():
+	"""Start your fun debugging journey."""
 	global _installed
 	if not _installed:
 		global old_hook
@@ -127,6 +128,7 @@ def install():
 			print("Welcome, hope the bug comes your way.", file=sys.stderr)
 
 def uninstall():
+	"""Call this function to end this debugging trip."""
 	global _installed
 	if _installed:
 		global old_hook
@@ -139,4 +141,5 @@ def uninstall():
 			print("Goodbye, hope you had fun.", file=sys.stderr)
 
 def is_installed():
+	"""Check your mental state."""
 	return _installed
