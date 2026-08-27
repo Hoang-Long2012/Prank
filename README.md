@@ -140,4 +140,4 @@ No warranty.
 
 Especially emotional warranty.
 
-Read more in the disclaimer [here](DISCLAIMER.md).
+Read more in the disclaimer [here](https://github.com/Hoang-Long2012/Prank/blob/main/DISCLAIMER.md).
