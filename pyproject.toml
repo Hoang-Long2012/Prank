@@ -1,9 +1,9 @@
 [project]
 name = "prank"
-version = "0.1.1"
+version = "0.1.2"
 description = "Turns every uncaught exception into emotional damage."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.8"
 license = "MIT"
 
 authors = [
@@ -17,6 +17,7 @@ keywords = [
 	"exception",
 	"excepthook",
 	"debug",
+	"joke",
 	"humor",
 	"fun",
 	"sarcasm",
@@ -28,12 +29,14 @@ classifiers = [
 	"Operating System :: OS Independent",
 	"Programming Language :: Python :: 3",
 	"Programming Language :: Python :: 3 :: Only",
+	"Programming Language :: Python :: 3.8",
 	"Programming Language :: Python :: 3.9",
 	"Programming Language :: Python :: 3.10",
 	"Programming Language :: Python :: 3.11",
 	"Programming Language :: Python :: 3.12",
 	"Programming Language :: Python :: 3.13",
 	"Programming Language :: Python :: 3.14",
+	"Programming Language :: Python :: 3.15",
 	"Topic :: Software Development :: Libraries :: Python Modules"
 ]
 
@@ -44,6 +47,8 @@ Homepage = "https://github.com/Hoang-Long2012/Prank"
 Repository = "https://github.com/Hoang-Long2012/Prank"
 Issues = "https://github.com/Hoang-Long2012/Prank/issues"
 Changelog = "https://github.com/Hoang-Long2012/Prank/blob/main/CHANGELOG.md"
+Disclaimer = "https://github.com/Hoang-Long2012/Prank/blob/main/DISCLAIMER.md"
+Contributing = "https://github.com/Hoang-Long2012/Prank/blob/main/CONTRIBUTING.md"
 
 [tool.setuptools.packages.find]
 where = ["src"]
