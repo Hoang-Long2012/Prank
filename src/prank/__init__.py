@@ -3,7 +3,7 @@
 import sys
 import random
 
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 __author__ = "Hoàng Long"
 __all__ = ["install", "uninstall", "is_installed", "__version__", "__author__"]
 
