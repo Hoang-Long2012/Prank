@@ -134,7 +134,7 @@ prank.uninstall()
 
 ## License
 
-Licensed under the [MIT License](LICENSE).
+Licensed under the [MIT License](https://github.com/Hoang-Long2012/Prank/blob/main/LICENSE).
 
 No warranty.
 
