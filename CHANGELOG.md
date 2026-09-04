@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.3
+- Documentation-only release: Fix link in README.
+
 ## 0.1.2
 - Update documentation and package information.
 
