@@ -3,7 +3,7 @@
 import sys
 import random
 
-__version__ = "0.1.4"
+__version__ = "0.1.5"
 __author__ = "Hoàng Long"
 __all__ = ["install", "uninstall", "is_installed", "__version__", "__author__"]
 
@@ -103,7 +103,7 @@ _installed = False
 def my_hook(exc_type, exc_value, exc_tb):
 	if old_hook is not None:
 		old_hook(exc_type, exc_value, exc_tb)
-	if not issubclass(exception, Warning):
+	if not issubclass(exc_type, Warning):
 		msg = random.choice(random_messages)
 		for exception, message in exception_messages.items():
 			if issubclass(exc_type, exception):
