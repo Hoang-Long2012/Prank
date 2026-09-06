@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.1.4
+- Some internal changes.
+
 ## 0.1.3
 - Documentation-only release: Fix link in README.
 

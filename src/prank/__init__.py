@@ -3,7 +3,7 @@
 import sys
 import random
 
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 __author__ = "Hoàng Long"
 __all__ = ["install", "uninstall", "is_installed", "__version__", "__author__"]
 
@@ -103,17 +103,18 @@ _installed = False
 def my_hook(exc_type, exc_value, exc_tb):
 	if old_hook is not None:
 		old_hook(exc_type, exc_value, exc_tb)
-	msg = random.choice(random_messages)
-	for exception, message in exception_messages.items():
-		if issubclass(exc_type, exception):
-			msg = message
-			break
-	bad_luck = random.random()
-	if bad_luck < 0.001:
-		msg = random.choice(ultra_rare_messages)
-	elif bad_luck < 0.01:
-		msg = random.choice(rare_messages)
-	print(msg, file=sys.stderr)
+	if not issubclass(exception, Warning):
+		msg = random.choice(random_messages)
+		for exception, message in exception_messages.items():
+			if issubclass(exc_type, exception):
+				msg = message
+				break
+		bad_luck = random.random()
+		if bad_luck < 0.001:
+			msg = random.choice(ultra_rare_messages)
+		elif bad_luck < 0.01:
+			msg = random.choice(rare_messages)
+		print(msg, file=sys.stderr)
 
 def install():
 	"""Start your fun debugging journey."""
