@@ -19,7 +19,7 @@ Turns every uncaught exception into emotional damage.
 - Zero benefits.
 - Maximum emotional damage.
 - Rare (1%) and Ultra Rare (0.1%) messages.
-- Every exception now has multiple sarcastic message variants.
+- Every exception has multiple sarcastic message variants.
 - Over 300 unique messages across common exception types.
 - Makes every crash a little more memorable.
 - Makes Python just a little bit more sarcastic.
@@ -74,7 +74,7 @@ AttributeError: ...
 Maybe None isn't what you thought it was.
 ```
 
-And in version 0.1.6, the same exception can now produce different messages each time:
+The same exception can also produce a different sarcastic message on another run:
 
 ```text
 ZeroDivisionError: division by zero
@@ -147,14 +147,6 @@ Yes.
 ```python
 prank.uninstall()
 ```
-
-## Version Notes
-
-### 0.1.6
-
-- Added multiple random message variants per exception type.
-- Expanded the message pool to hundreds of possible outputs.
-- Makes every exception experience slightly more chaotic and entertaining.
 
 ## License
 
