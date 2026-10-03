@@ -1,11 +1,11 @@
 """Turns every uncaught exception into emotional damage."""
 
-import sys
 import random
+import sys
 
 __version__ = "0.1.5"
 __author__ = "Hoàng Long"
-__all__ = ["install", "uninstall", "is_installed", "__version__", "__author__"]
+__all__ = ["__author__", "__version__", "install", "is_installed", "uninstall"]
 
 random_messages = [
 	"Stack Overflow is waiting for you.",
