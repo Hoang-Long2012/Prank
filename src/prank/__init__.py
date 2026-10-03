@@ -293,7 +293,7 @@ old_hook = None
 _installed = False
 
 
-def my_hook(exc_type, exc_value, exc_tb):
+def excepthook(exc_type, exc_value, exc_tb):
 	if old_hook is not None:
 		old_hook(exc_type, exc_value, exc_tb)
 	if not issubclass(exc_type, Warning):
@@ -316,7 +316,7 @@ def install():
 	if not _installed:
 		global old_hook
 		old_hook = sys.excepthook
-		sys.excepthook = my_hook
+		sys.excepthook = excepthook
 		_installed = True
 		if random.random() < 0.01:
 			print("You shouldn't have installed me.", file=sys.stderr)
